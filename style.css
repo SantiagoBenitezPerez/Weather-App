@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation&family=Finlandica:ital@1&family=Fjalla+One&family=Kalam&family=Titan+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Fjalla One', sans-serif;
+    letter-spacing: 1px;
+    font-weight: normal;
+}
+
+#container {
+    width: 400px;
+    height: 500px;
+    /* background-color: lightblue; */
+    margin: auto;
+    margin-top: 40px;
+    display:flex;
+    flex-direction: column;
+}
+
+#top-container {
+    /* background-color: red; */
+    height: 50%;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#title {
+    color: rgb(252, 186, 7);
+    font-size: 40px;
+}
+
+#input {
+    font-size: 25px;
+    width: 85%;
+    height: 50px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 3px solid #eee;
+}
+
+.btn {
+   height: 43px;
+   width: 80px;
+   border-radius: 5px;
+   margin:3px;
+   font-size: 16px;
+   
+
+}
+
+.btn:hover {
+    transform:scale(1.05);
+}
+
+#search-btn {
+    color: white;
+    background-color: rgba(23, 18, 46, 0.952);
+}
+
+#clear-btn {
+    border: 3px solid #eee;
+}
+
+#bottom-container {
+    /* background-color: yellow; */
+    height: 50%;
+    display:flex;
+    flex-direction: column;
+    
+}
+
+#city-name {
+    background-color: #eee;
+    height: 25%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    border: 2px solid #eee;
+    border-radius: 5px;
+}
+
+#weather-info {
+    /* background-color: purple; */
+    height: 75%;
+    display:flex;
+    flex-direction: column;
+    border: 2px solid #eee;
+    border-radius: 5px;
+    
+
+}
+
+#weather {
+    height: 35%;
+    /* background-color: yellow; */
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    /* margin-top: 10px; */
+}
+
+#temp {
+    height: 65%;
+    /* background-color: green; */
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#inner {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color:red; */
+    margin-bottom: 10px;
+    /* height: 100px; */
+}
+
+.temp {
+    font-size: 16px;
+    margin: 4px;
+    /* background-color: yellow; */
+        
+}
+
+.weather-color {
+    /* background-color: rgb(16, 36, 16); */
+    background-color: rgba(9, 7, 17, 0.952);
+
+    color:white;
+
+}
